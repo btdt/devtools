@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Development Tools</title>
+    <link rel="icon" href="/icon.svg" />
+    <link rel="manifest" href="/manifest.json" />
+    <style>
+      * {
+        transition: color 0.1s ease, background-color 0.2s ease-in-out;
+      }
+      body {
+        margin: 24px;
+        color: #ffffff;
+        background-color: #333333;
+      }
+      a {
+        text-decoration: none;
+        color: #ffffff;
+      }
+      @media (prefers-color-scheme: light) {
+        body {
+          color: #2b2b2b;
+          background-color: #f7f7f7;
+        }
+        a {
+          color: #2b2b2b;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+    <script type="module" src="/pwabuilder-sw-register.js"></script>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json.schemastore.org/web-manifest",
+  "short_name": "devtools",
+  "name": "Development Tools",
+  "description": "Development Tools",
+  "lang": "zh-cn",
+  "scope": "/devtools",
+  "background_color": "#333333",
+  "theme_color": "#2468f2",
+  "start_url": "/devtools",
+  "display": "standalone",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/devtools/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Color Picker",
+      "description": "Color picker",
+      "url": "/devtools/#/color-picker"
+    }
+  ]
+}
