@@ -69,6 +69,14 @@ module.exports = {
         asyncArrow: 'always',
       },
     ],
+    'no-multiple-empty-lines': [
+      'error',
+      {
+        max: 1,
+        maxBOF: 0,
+        maxEOF: 0,
+      },
+    ],
     'vue/html-indent': 'error',
     'vue/script-setup-uses-vars': 'error',
     'vue/component-name-in-template-casing': ['error'],

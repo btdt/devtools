@@ -52,6 +52,14 @@ export default [
         },
         component: () => import('@/views/regex'),
       },
+      {
+        name: 'uuid',
+        path: '/uuid',
+        meta: {
+          title: 'UUID',
+        },
+        component: () => import('@/views/uuid'),
+      },
     ],
   },
 ];
